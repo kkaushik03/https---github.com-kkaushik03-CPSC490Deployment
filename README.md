@@ -25,6 +25,4 @@
 *Comments and feedback welcome!*
 
 # Where am I deployed?
-
-<[enter your URL here](https://trialversion-e77830e2640d.herokuapp.com/)>
-
+[Enter your URL here](https://dbbackend-e924406adf52.herokuapp.com/)
