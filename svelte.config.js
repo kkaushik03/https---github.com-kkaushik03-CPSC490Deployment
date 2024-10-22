@@ -1,10 +1,9 @@
-import adapter from '@sveltejs/adapter-node'; // Use adapter-node for production
 import preprocess from 'svelte-preprocess';
+import adapter from '@sveltejs/adapter-node';
 
 export default {
 	kit: {
-		adapter: adapter(),  // This is the key line for deploying to Heroku
-		target: '#svelte'
+		adapter: adapter(),  // Use adapter-node for deployment on Heroku
 	},
-	preprocess: preprocess()
+	preprocess: preprocess(),  // This ensures svelte-preprocess is used
 };
