@@ -12,7 +12,7 @@
 <style>
     .row {
         display: flex;
-        background-color: #ffcccb; /* Lighter pink */
+        background-color: skyblue; /* Lighter pink */
         padding: 10px;
         margin: 5px 0;
         border: 1px solid beige;
