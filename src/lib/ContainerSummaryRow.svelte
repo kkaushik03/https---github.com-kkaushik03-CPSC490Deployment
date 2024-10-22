@@ -12,7 +12,7 @@
 <style>
     .row {
         display: flex;
-        background-color: pink;
+        background-color: #ffcccb; /* Lighter pink */
         padding: 10px;
         margin: 5px 0;
         border: 1px solid beige;
@@ -33,5 +33,21 @@
     .size {
         flex: 0 0 60px;
         text-align: right;
+    }
+
+    /* Button style with different shade of pink */
+    button {
+        background-color: #ff9999; /* Darker pink */
+        color: white;
+        border: none;
+        padding: 8px 12px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+
+    /* On hover, make it slightly darker */
+    button:hover {
+        background-color: #ff6666;
     }
 </style>
